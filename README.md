@@ -1,2 +1,2 @@
 # html_tasks
-learning html
+learning html-basics
