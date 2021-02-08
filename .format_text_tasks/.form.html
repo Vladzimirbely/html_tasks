@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Формы</title>
+</head>
+<body>
+   <form>
+       <fieldset>
+           <p><label for="firstname">Ваше имя:</label></p>
+           <input type="text" id="firstname" name="firstname"><br />
+           <p><label for="photo">Ваше фото:</label></p>
+           <input type="file" id="photo" name="photo"><br />
+           <p><label for="password">Ваш пароль:</label></p>
+           <input type="password" id="password" name="password"><br />
+           <p><i><label for="pass">Это поле для тех, у кого особый пароль: </label><input type="password" id="pass" name="pass"></i></p>
+       </fieldset>
+       <fieldset>
+           <h1 style="text-align: center;">Пройдите тест</h1>
+       </fieldset>
+        <fieldset>
+            <h2>Любимое время года</h2>
+            <select size="8" multiple>
+            <option disabled style="font-style: italic; font-variant-ligatures: ;">Время года</option>
+            <option value="зима">зима</option>
+            <option value="весна">весна</option>
+            <option value="лето">лето</option>
+            <option value="осень">осень</option>
+            <option value="все люблю">все люблю</option>
+            <option value="все не люблю">все не люблю</option>
+            <option value="без разницы">без разницы</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <h2>По какому режиму живете?</h2>
+            <p><input name="radiobutton" type="radio">я 'сова'</p>
+            <p><input name="radiobutton" type="radio">я 'жаворонок'</p>
+            <p><input name="radiobutton" type="radio">без разницы</p>
+        </fieldset>
+        <fieldset>
+            <legend>Любимая еда</legend>
+            <input type="checkbox">вкусная<br />
+            <input type="checkbox">полезная<br />
+            <input type="checkbox">все, что вкусно - полезно<br />
+            <input type="checkbox">все, что полезно - вкусно<br />
+            <input type="checkbox">без разницы<br />
+        </fieldset>
+        <fieldset>
+            <legend>Любимое чтение</legend>
+            <input type="checkbox">интересное<br />
+            <input type="checkbox">полезное<br />
+            <input type="checkbox">читаю все<br />
+            <input type="checkbox">не умею<br />
+            <input type="checkbox">без разницы<br />
+        </fieldset>
+    </form>
+    <button>Отправить</button>
+    <button>Очистить</button>
+    <button>Просто кнопка</button>
+</body>
+</html>
