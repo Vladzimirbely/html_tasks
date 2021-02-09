@@ -1,0 +1,76 @@
+.circle {
+  width: 97px;
+  height: 97px;
+  border-radius: 50%;
+  background-color: #065e5b;
+  position: absolute;
+  top: 10px;
+  left: 293px;
+}
+.shoes {
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 15px;
+  width: 334px;
+  height: 159px;
+  position: relative;
+  top: 40px;
+}
+#tufel {
+  width: 126px;
+  height: 93px;
+  position: relative;
+  top: -84px;
+  left: 10px;
+}
+#iconka {
+  position: absolute;
+  top: 104px;
+  left: 212px;
+}
+#text {
+  width: 97.14px;
+  height: 48.54px;
+  position: absolute;
+  top: 115px;
+  left: 229px;
+  color: #996c17;
+}
+#text_up_to {
+  width: 97.14px;
+  height: 76.52px;
+  text-align: center;
+  color: #ffffff;
+  position: absolute;
+  top: -5px;
+}
+#text_50 {
+  width: 88px;
+  height: 43.11px;
+  position: absolute;
+  top: -4px;
+  left: 17px;
+  font-size: 34.26px;
+  color: #fab42d;
+}
+#text_percent {
+  width: 88px;
+  height: 43.11px;
+  position: absolute;
+  top: -4px;
+  left: 54px;
+  font-size: 34.26px;
+  color: #ffffff;
+}
+#text_discount {
+  width: 97.14px;
+  height: 76.52px;
+  text-align: center;
+  color: #ffffff;
+  position: absolute;
+  top: 49px;
+}
+ul {
+  list-style-type: none;
+}
