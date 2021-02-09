@@ -1,0 +1,33 @@
+.header {
+    background-color: #749220;
+    height: 182px;
+}
+p {
+    text-align-last: center;
+    color: white;
+    font-size: xx-large;
+}
+.nav {
+    background-color: #dcd330;
+    height: 70px;
+}
+.aside {
+    background-color: #7d24a2;
+    height: 622px;
+    display: inline;
+}
+.article {
+    background-color: #2bbd96;
+    display: inline;
+    height: 622px;
+    width: 1099px;
+}
+.article_section {
+    background-color: white;
+    color: #728d26;
+    height: 224px;
+    width: 858;
+}
+.footer {
+    background-color: #7dbdac;
+}
